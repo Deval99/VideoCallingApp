@@ -38,9 +38,9 @@ class VideoCall: NSObject, AgoraRtcKit.AgoraRtcEngineDelegate {
     
     open func setupEngine() -> AgoraRtcEngineKit {
         let eng = AgoraRtcEngineKit.sharedEngine(withAppId: appId, delegate: self)
-        if DocsAppConfig.shared.product != .voice {
+//        if DocsAppConfig.shared.product != .voice {
             eng.enableVideo()
-        } else { eng.enableAudio() }
+//        } else { eng.enableAudio() }
         eng.setClientRole(role)
         return eng
     }
