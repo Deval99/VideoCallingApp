@@ -8,6 +8,7 @@
 import SwiftUI
 import UIKit
 import FirebaseCore
+import FirebaseAuth
 import GoogleSignIn
 
 // no changes in your AppDelegate class
@@ -27,9 +28,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct VideoCallingAppApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
+        let firebaseAuth = Auth.auth()
         WindowGroup {
 //            ContentView()
-            Signup()
+//            LoginPage()
+            MainRoutingScreen()
+//            MainAuthScreen()
         }
     }
 }

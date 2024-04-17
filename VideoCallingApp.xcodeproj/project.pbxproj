@@ -10,9 +10,10 @@
 		F527B7A12BC87335006B48A7 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F527B7A02BC87335006B48A7 /* GoogleSignIn */; };
 		F527B7A32BC87335006B48A7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F527B7A22BC87335006B48A7 /* GoogleSignInSwift */; };
 		F52CD4B02BC9D0FE0026F0C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F52CD4AF2BC9D0FE0026F0C8 /* GoogleService-Info.plist */; };
+		F530F1402BD0661A0016025A /* MainRoutingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530F13F2BD0661A0016025A /* MainRoutingScreen.swift */; };
 		F551EB2B2BC7065F00E28340 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F551EB2A2BC7065F00E28340 /* FirebaseAuth */; };
 		F551EB2D2BC7065F00E28340 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F551EB2C2BC7065F00E28340 /* FirebaseAuthCombine-Community */; };
-		F551EB2F2BC706E400E28340 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551EB2E2BC706E400E28340 /* Signup.swift */; };
+		F551EB2F2BC706E400E28340 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551EB2E2BC706E400E28340 /* LoginPage.swift */; };
 		F59F11C42BC450FC00671C10 /* VideoCallingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F11C32BC450FC00671C10 /* VideoCallingAppApp.swift */; };
 		F59F11C62BC450FC00671C10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F11C52BC450FC00671C10 /* ContentView.swift */; };
 		F59F11C82BC450FE00671C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59F11C72BC450FE00671C10 /* Assets.xcassets */; };
@@ -24,6 +25,9 @@
 		F59F11F22BC4550700671C10 /* VideoCalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F11F12BC4550700671C10 /* VideoCalling.swift */; };
 		F59F11F42BC460B500671C10 /* DocsAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F11F32BC460B500671C10 /* DocsAppConfig.swift */; };
 		F59F11F82BC4805700671C10 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = F59F11F72BC4805700671C10 /* config.json */; };
+		F5C4383C2BCF1A07008B5119 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C4383B2BCF1A07008B5119 /* SignUp.swift */; };
+		F5C4383E2BCF1DBF008B5119 /* CompleteProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C4383D2BCF1DBF008B5119 /* CompleteProfile.swift */; };
+		F5D7C9532BCB12BE0018695F /* MainAuthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7C9522BCB12BE0018695F /* MainAuthScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +49,8 @@
 
 /* Begin PBXFileReference section */
 		F52CD4AF2BC9D0FE0026F0C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F551EB2E2BC706E400E28340 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		F530F13F2BD0661A0016025A /* MainRoutingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRoutingScreen.swift; sourceTree = "<group>"; };
+		F551EB2E2BC706E400E28340 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		F59F11C02BC450FC00671C10 /* VideoCallingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCallingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59F11C32BC450FC00671C10 /* VideoCallingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallingAppApp.swift; sourceTree = "<group>"; };
 		F59F11C52BC450FC00671C10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +65,9 @@
 		F59F11F12BC4550700671C10 /* VideoCalling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCalling.swift; sourceTree = "<group>"; };
 		F59F11F32BC460B500671C10 /* DocsAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocsAppConfig.swift; sourceTree = "<group>"; };
 		F59F11F72BC4805700671C10 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = config.json; path = "../../video-sdk-samples-ios/agora-manager/config.json"; sourceTree = "<group>"; };
+		F5C4383B2BCF1A07008B5119 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		F5C4383D2BCF1DBF008B5119 /* CompleteProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfile.swift; sourceTree = "<group>"; };
+		F5D7C9522BCB12BE0018695F /* MainAuthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAuthScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,11 @@
 		F551EB242BC7003B00E28340 /* auth */ = {
 			isa = PBXGroup;
 			children = (
-				F551EB2E2BC706E400E28340 /* Signup.swift */,
+				F5D7C9522BCB12BE0018695F /* MainAuthScreen.swift */,
+				F551EB2E2BC706E400E28340 /* LoginPage.swift */,
+				F5C4383B2BCF1A07008B5119 /* SignUp.swift */,
+				F5C4383D2BCF1DBF008B5119 /* CompleteProfile.swift */,
+				F530F13F2BD0661A0016025A /* MainRoutingScreen.swift */,
 			);
 			path = auth;
 			sourceTree = "<group>";
@@ -306,10 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C4383C2BCF1A07008B5119 /* SignUp.swift in Sources */,
 				F59F11C62BC450FC00671C10 /* ContentView.swift in Sources */,
-				F551EB2F2BC706E400E28340 /* Signup.swift in Sources */,
+				F5C4383E2BCF1DBF008B5119 /* CompleteProfile.swift in Sources */,
+				F551EB2F2BC706E400E28340 /* LoginPage.swift in Sources */,
 				F59F11C42BC450FC00671C10 /* VideoCallingAppApp.swift in Sources */,
 				F59F11F42BC460B500671C10 /* DocsAppConfig.swift in Sources */,
+				F5D7C9532BCB12BE0018695F /* MainAuthScreen.swift in Sources */,
+				F530F1402BD0661A0016025A /* MainRoutingScreen.swift in Sources */,
 				F59F11F22BC4550700671C10 /* VideoCalling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
