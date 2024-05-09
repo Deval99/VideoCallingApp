@@ -51,6 +51,13 @@ struct ContentView: View {
                         .background(Color.blue)
                         .cornerRadius(10)
                 }
+                NavigationLink(destination: DeferView { PaymentView() }) {
+                    Text("Stripe Payment")
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                }
 
             }
             .padding()
