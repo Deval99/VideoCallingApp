@@ -15,7 +15,7 @@ import Stripe
 // no changes in your AppDelegate class
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        StripeAPI.defaultPublishableKey = "pk_test_51PEFIZSGysvXgBPGnZXT1cL1FcEmCqDP7ERHadRyPq7x7IketzrVJMW0rndz5ExFEeDX448o05kERR5FCFWRzxgb00urtJBCZe"
+        StripeAPI.defaultPublishableKey = "YOUR_PUBLISHABLE_KEY"
         FirebaseApp.configure()
         return true
     }
